@@ -5,6 +5,12 @@ This tool patches Malie engine executables by injecting a modified EXEC.bin dire
 Normally, replacing EXEC.bin using tools like Resource Hacker can corrupt the .rsrc section and break the executable when the file size changes.
 This patcher solves that problem by creating a new section in the EXE and redirecting the resource entry, allowing larger EXEC.bin files to be injected safely.
 
+Note:
+This patcher only works on unpacked executables.  
+If the executable is still protected by DRM, the patch may fail because the internal PE structure or resource access can be altered by the protection.
+
+Additionally, while this tool was designed for Karin Entertainment games (Karin / Karin Chat Noir Omega) that use the Malie engine, other Malie-based games may have different EXE structures and may not be compatible.
+
 Features
 ====
 1. Inject EXEC.bin directly into a Malie engine executable
