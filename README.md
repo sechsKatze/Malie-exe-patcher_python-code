@@ -9,7 +9,7 @@ Note:
 This patcher only works on unpacked executables.  
 If the executable is still protected by DRM, the patch may fail because the internal PE structure or resource access can be altered by the protection.
 
-Additionally, while this tool was designed for Karin Entertainment games (Karin / Karin Chat Noir Omega) that use the Malie engine, other Malie-based games may have different EXE structures and may not be compatible.
+Additionally, while this tool was designed for Karin games (Karin Entertainment(Otome)/ Karin Chat Noir Omega(BL)) that use the Malie engine, other Malie-based games may have different EXE structures and may not be compatible.
 
 Features
 ====
