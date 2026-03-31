@@ -34,9 +34,6 @@ This patcher is designed for Karin Entertainment(BL : Karin Chat noir Omega) gam
 Usage
 ====
 Place the executable and EXEC.bin in the same directory and run:
-```bash
-python malie_exe_patcher.py original.exe EXEC.bin patched.exe
-```
 
 Example:
 ```bash
